@@ -1,0 +1,14 @@
+rustup doc
+
+conevntion: under_score_names
+
+compile: rustc main.rs
+
+cargo fmt, automatycznie: settings.json -> editor.formatOnSave: true
+
+exe: target/debug/<.rs name>
+
+cargo run
+cargo check # to make sure it compile's (much facter then compiling)
+cargo build --release
+
